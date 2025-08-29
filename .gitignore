@@ -1,0 +1,61 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.vscode
+frontend/.vscode
+frontend/node_modules
+node_modules
+whooshee_index
+
+# Project Specific Folders
+instance/
+migrations/
+QuizMaster_API/
+
+
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+frontend/node_modules
+frontend/.DS_Store
+frontend/dist
+frontend/dist-ssr
+frontend/coverage
+frontend/*.local
+
+frontend/cypress/videos/
+frontend/cypress/screenshots/
+
+
+
+# Editor directories and files
+frontend/.vscode/*
+frontend/!.vscode/extensions.json
+frontend/.idea
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
+
+frontend/*.tsbuildinfo
+frontend.backup
+frontend/.env
+
+backend/static/*
+backend/instance
+backend/migrations
+backend/whooshee_index
