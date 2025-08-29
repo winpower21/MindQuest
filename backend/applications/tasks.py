@@ -246,6 +246,6 @@ def monthly_report():
 def generate_msg(chapterName, quizName):
     text = f"Hi, new quiz has been added under {chapterName}:{quizName}. Please check the app at http://127.0.0.1:5173 to view more details."
     response = requests.post(
-        "https://chat.googleapis.com/v1/spaces/AAQAN_E2GeM/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Tdm6WauWeZtY1MQEwbMP-GelgXnROQqn96LlO5KrCUE", json={"text": text})
+        "Webhook Here", json={"text": text})
     print(response.status_code)
     return "Message sent"
