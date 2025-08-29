@@ -164,6 +164,10 @@ For other distributions follow the instructions given to install Redis OpenSourc
     ```bash
     $ pip install -r requirements.txt
     ```
+3. G-Space Integration
+   In order to implement G-Space notifications provide your own api keys and endpoints.
+   For G-Space, create a new space and under settings generate a webhook and add it in backend/applications/tasks.py in the generate_msg function replacing the existing value in: `response = requests.post(
+        "Webhook Here", json={"text": text})`
 
 3. **Start Redis server**
     ```bash
